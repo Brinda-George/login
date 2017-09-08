@@ -105,6 +105,7 @@
     <Content Include="Registeration\Register.aspx" />
     <Content Include="ResetPassword.aspx" />
     <Content Include="Welcome.aspx" />
+    <Content Include="WizardControl.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -213,6 +214,13 @@
     </Compile>
     <Compile Include="Welcome.aspx.designer.cs">
       <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WizardControl.aspx.cs">
+      <DependentUpon>WizardControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WizardControl.aspx.designer.cs">
+      <DependentUpon>WizardControl.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
